@@ -285,7 +285,9 @@ body {
   }
   .content-srv .image::after {
     right: -240px;
-
+  }
+  .content-srv .image {
+    margin-top: 20px;
   }
 }
 @media (max-width: 767px) {
