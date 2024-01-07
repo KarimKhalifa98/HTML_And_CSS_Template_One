@@ -232,14 +232,6 @@ body {
     text-align: center;
   }
 }
-.content-srv .srv:hover {
-  background-color: var(--main-color);
-  box-shadow: -13px 17px 10px 5px #ddd;
-  transform: translate(10px, -10px);
-  & i {
-    color: white;
-  }
-}
 .content-srv .srv i {
   flex-basis: 60px;
   color: var(--main-color);
@@ -258,7 +250,6 @@ body {
 }
 .content-srv .image {
   position: relative;
-  /* text-align: center; */
 }
 .content-srv .col:last-child {
   display: flex;
